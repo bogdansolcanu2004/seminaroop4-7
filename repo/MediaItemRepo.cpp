@@ -15,6 +15,7 @@ MediaItemRepo::~MediaItemRepo() {
     for (size_t i = 0; i < items.size(); i++) {
         delete items[i];
     }
+    items.clear();
 }
 
 bool FileRepo::load() {

@@ -15,7 +15,9 @@ protected:
     std::vector<MediaItem*> items;
 public:
     void add(MediaItem*);
-
+    MediaItemRepo() = default;
+    MediaItemRepo(const MediaItemRepo &) = delete;
+    MediaItemRepo& operator=(const MediaItemRepo &) = delete;
     virtual ~MediaItemRepo();
 
 };

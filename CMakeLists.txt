@@ -3,4 +3,8 @@ project("Seminar OOP")
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(program main.cpp domain/MediaItem.cpp repo/MediaItemRepo.cpp)
+add_executable(program main.cpp domain/MediaItem.cpp repo/MediaItemRepo.cpp
+        ui/UI.cpp
+        ui/UI.h
+        service/Service.cpp
+        service/Service.h)
