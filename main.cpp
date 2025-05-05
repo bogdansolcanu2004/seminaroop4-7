@@ -6,9 +6,6 @@
 using namespace std;
 
 int main() {
-    Repository r;
-    ifstream f{"../media_entries.csv"};
-    cout<<f.is_open();
-    //un comentariu
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
